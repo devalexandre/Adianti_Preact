@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+   
+<IfModule mod_headers.c>    
+    Header add Access-Control-Allow-Origin "*"
+    Header add Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
+    Header add Access-Control-Allow-Headers: "Content-Type"
+</IfModule>
+ 
+   Options -MultiViews
+	
+    RewriteEngine On
+    #RewriteBase /path/to/app
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

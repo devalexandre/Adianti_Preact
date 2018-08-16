@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/rest/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/rest/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/rest/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/rest/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/rest/vendor/silex/silex" />
+      <path value="$PROJECT_DIR$/rest/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/rest/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/rest/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/rest/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/rest/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/rest/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/rest/vendor/composer" />
+      <path value="$PROJECT_DIR$/rest/vendor/tburry/pquery" />
+      <path value="$PROJECT_DIR$/rest/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/rest/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/rest/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/rest/vendor/picqer/php-barcode-generator" />
+      <path value="$PROJECT_DIR$/rest/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/rest/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/rest/vendor/phprtflite/phprtflite" />
+      <path value="$PROJECT_DIR$/rest/vendor/phpmailer/phpmailer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>
